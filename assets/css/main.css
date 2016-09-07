@@ -3093,6 +3093,74 @@
 
 /* Main */
 
+/* founders */
+
+	#founders {
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		background-image: url("images/overlay.png"), url("../../images/founders.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+		#founders :last-child {
+			margin-bottom: 0;
+		}
+
+		#founders h2, #founders h3, #founders h4, #founders h5, #founders h6 {
+			color: #fff;
+		}
+
+		#founders h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#founders p {
+			font-size: 1.25em;
+			margin-bottom: 1.75em;
+		}
+
+		#founders input[type="submit"],
+		#founders input[type="reset"],
+		#founders input[type="button"],
+		#founders .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+			color: #fff;
+			min-width: 12em;
+		}
+
+			#founders input[type="submit"]:hover,
+			#founders input[type="reset"]:hover,
+			#founders input[type="button"]:hover,
+			#founders .button:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+
+			#founders input[type="submit"]:active,
+			#founders input[type="reset"]:active,
+			#founders input[type="button"]:active,
+			#founders .button:active {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+			#founders input[type="submit"].special,
+			#founders input[type="reset"].special,
+			#founders input[type="button"].special,
+			#founders .button.special {
+				background: #fff;
+				color: #666 !important;
+			}
+
+/* Main */
+
 	#main {
 		padding: 4em 0;
 	}
